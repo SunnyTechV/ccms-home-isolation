@@ -1,0 +1,9 @@
+{
+  "homeIsolationApp": {
+    "IsolationStatus": {
+      "null": "",
+      "HOMEISOLATION": "Home Isolation",
+      "HOSPITALISED": "Hospitalised"
+    }
+  }
+}
