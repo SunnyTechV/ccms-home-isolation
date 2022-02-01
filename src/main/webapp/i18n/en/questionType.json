@@ -1,0 +1,10 @@
+{
+  "homeIsolationApp": {
+    "QuestionType": {
+      "null": "",
+      "FREETEXT": "Text",
+      "MULTISELECT": "MultiSelection",
+      "SINGLE": "Single"
+    }
+  }
+}

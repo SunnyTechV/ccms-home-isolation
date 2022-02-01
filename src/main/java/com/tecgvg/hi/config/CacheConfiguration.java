@@ -48,6 +48,15 @@ public class CacheConfiguration {
             createCache(cm, com.tecgvg.hi.domain.User.class.getName());
             createCache(cm, com.tecgvg.hi.domain.Authority.class.getName());
             createCache(cm, com.tecgvg.hi.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.tecgvg.hi.domain.HomeIsolations.class.getName());
+            createCache(cm, com.tecgvg.hi.domain.HomeIsolations.class.getName() + ".assessments");
+            createCache(cm, com.tecgvg.hi.domain.IsolationsDetails.class.getName());
+            createCache(cm, com.tecgvg.hi.domain.Assessment.class.getName());
+            createCache(cm, com.tecgvg.hi.domain.Assessment.class.getName() + ".assessmentAnswers");
+            createCache(cm, com.tecgvg.hi.domain.Questions.class.getName());
+            createCache(cm, com.tecgvg.hi.domain.Questions.class.getName() + ".questionsOptions");
+            createCache(cm, com.tecgvg.hi.domain.QuestionsOptions.class.getName());
+            createCache(cm, com.tecgvg.hi.domain.AssessmentAnswers.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
